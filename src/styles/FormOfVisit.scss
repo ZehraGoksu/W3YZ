@@ -1,0 +1,27 @@
+@import "main";
+
+.title {
+  h3 {
+    font-family: $fontManrope;
+    font-size: 60px;
+    line-height: 82px;
+  }
+  p {
+    font-family: $fontManrope;
+    font-size: 30px;
+  }
+}
+
+.options { 
+  div p {
+    font-family: $fontRoboto;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0px;
+    padding-left: 1rem;
+    cursor: pointer;
+  } 
+  div img { 
+    cursor: pointer;
+  } 
+}

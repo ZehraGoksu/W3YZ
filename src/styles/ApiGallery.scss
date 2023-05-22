@@ -1,0 +1,111 @@
+@import "main";
+
+.bg-div {
+  background: linear-gradient(295.39deg, #d2d2d2 0%, #efefef 94.8%);
+  border-radius: 40px;
+  height: 1100px;
+  padding: 80px 70px;
+
+  div .images {
+    width: 240px;
+    height: 340px;
+  }
+
+  h3 {
+    font-family: $fontManrope;
+    font-size: 60px;
+    text-align: left;
+  }
+
+  p {
+    font-family: $fontManrope;
+    font-size: 30px;
+    line-height: 41px;
+  }
+  small {
+    font-family: $fontAvenir;
+    font-size: 16px;
+    font-weight: 400; 
+  }
+  
+  td img {
+    width: 94%;
+  }
+  .tdRight img {
+    width: 45%;
+  }
+
+  .textImage{
+    position: relative;
+    p{
+      font-size:15px;
+      line-height: 15px;
+      float: left;
+      clear: both;
+    }
+  }
+  
+}
+@media (min-width: $xxl) {
+  div .images {
+    width: 300px!important;
+    height: 400px!important;
+  }
+}
+
+@media (max-width: $xl) {
+  .bg-div {
+    height: 1600px;
+    padding: 50px 60px; 
+  } 
+  .textImage{ 
+    div{
+      padding: 3px 0px 3px 30px;
+    }
+  }
+}
+@media (max-width: $lg) {
+  .bg-div {
+    height: 1750px;
+    padding: 50px 50px; 
+    td img {
+      width: 85%;
+    }
+    .tdRight img {
+      width: 41%;
+    }
+    .textImage{ 
+      div{
+        padding: 3px 95px;
+      }
+    }
+  }
+}
+
+@media (max-width: $md) {
+  .bg-div {
+    height: 1605px !important;
+  }
+  .textImage{ 
+    div{
+      padding: 3px 100px 3px 30px;
+    }
+  }
+}
+
+@media (max-width: $sm) {
+  .bg-div {
+    height: 2350px !important;
+  }
+  .textImage{ 
+    div{
+      padding: 3px 150px 3px 20px!important;
+    }
+  }
+}
+
+@media (max-width: $xs) {
+  .bg-div {
+    height: 1970px;
+  }
+}

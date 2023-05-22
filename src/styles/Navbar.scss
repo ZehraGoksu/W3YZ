@@ -1,0 +1,29 @@
+@import "main";
+
+.logo {
+  color: $logoColor;
+  position: absolute;
+  width: 43.33px;
+  height: 25px;
+  left: 0px;
+  top: 0px;
+}
+
+h5 {
+  line-height: 0;
+}
+
+.text {
+  font-size: 11px;
+  line-height: 24px;
+  color: $navbarFontColor;
+  text-decoration: none;
+}
+
+@media (max-width: $l) {
+   
+    h5{   
+      font-size: 1rem; 
+    }
+  
+}

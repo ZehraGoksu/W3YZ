@@ -1,0 +1,75 @@
+@import "main";
+
+.body {
+  background-color: $footerBgColor;
+  padding: 63px 120px;
+
+  h5 {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 100;
+    color: #fff;
+    margin-bottom: 27px;
+  }
+
+  li a {
+    font-size: 14px;
+    line-height: 22px;
+    color: #fff !important;
+  }
+}
+
+.vrHeight {
+  display: hidden;
+}
+
+.hrWidth {
+  width: 380px;
+  background-color: #ffffffe6;
+}
+
+
+@media (min-width: $md) {
+  .vrHeight {
+    border-left: #333333 1px solid;
+    padding: 0px 0px 0px 22px;
+  }
+  .hrLong {
+    padding: 0px 150px !important;
+  }
+}
+
+@media (min-width: $sm) {
+  .hrLong {
+    padding: 0px 100px !important;
+  }
+}
+
+@media (min-width: $xs) {
+  .hrLong {
+    padding: 0px 0px !important;
+  }
+}
+
+
+.riIcon {
+  box-shadow: inset 0px 0px 0px 1px #333333;
+  color: #fff;
+  font-size: 35px;
+  padding: 8px;
+}
+
+.hrLong {
+  padding: 0px 360px;
+  width: 1500px;
+  background-color: #ffffffe6;
+}
+
+.subTitle {
+  font-size: 11px;
+  color: #c6c6c6;
+  text-decoration: none;
+  &:hover {
+    color: white;
+  }
+}
